@@ -38,8 +38,19 @@ public class BeverageService {
     }
 
     public void init() {
-        beverageRepository.saveAll(Arrays.asList(new Beverage("water", BigDecimal.TEN, 0.00, "H2O"),
-                new Beverage("Beer", BigDecimal.valueOf(15.00), 4.5, "Magical HOH"))
+        beverageRepository.saveAll(Arrays.asList(
+                new Beverage("Water", BigDecimal.TEN, 0.00, "H2O"),
+                new Beverage("Beer", BigDecimal.valueOf(12.00), 4.5, "Magical HOH"),
+                new Beverage("Coffe", BigDecimal.valueOf(15.00), 0.00, "Magical HOH"),
+                new Beverage("Sprite", BigDecimal.valueOf(16.00), 0.00, "Magical HOH"),
+                new Beverage("Cola", BigDecimal.valueOf(15.00), 0.00, "Magical HOH"),
+                new Beverage("Juice", BigDecimal.valueOf(19.00), 0.00, "Magical HOH"),
+                new Beverage("Rum", BigDecimal.valueOf(23.00), 25.5, "Magical C2-H5-OH"),
+                new Beverage("Baileys", BigDecimal.valueOf(65.00), 25.3, "Magical C2-H5-OH"),
+                new Beverage("Vodka", BigDecimal.valueOf(55.00), 30.3, "Magical C2-H5-OH"),
+                new Beverage("Whiskey", BigDecimal.valueOf(85.00), 45.0, "Magical C2-H5-OH")
+
+                )
         );
     }
 

@@ -1,6 +1,6 @@
 package md.usm.taskmanagement.model;
 
-import com.sun.javafx.beans.IDProperty;
+//import com.sun.javafx.beans.IDProperty;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
